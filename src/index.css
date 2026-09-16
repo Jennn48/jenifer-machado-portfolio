@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
 :root {
   --text: #253a43;
   --text-h: #5e6e75;
-  --bg: #f5f4f5;
+  --bg: #e6f7fa;
   --border: #eaeaea;
 
   --ocean-light: #d4dddf;
@@ -20,11 +22,11 @@
   --shadow:
     rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
 
-  --heading: "Cormorant Garamond", serif;
+  --serif: "Cormorant Garamond", serif;
   --sans: "Inter", sans-serif;
 
 
-  font: 18px/145% var(--heading);
+  font: 18px/145% var(--serif);
   letter-spacing: 0.18px;
   color-scheme: light dark;
   color: var(--text);
@@ -39,7 +41,7 @@
   }
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --text: #9ca3af;
     --text-h: #f3f4f6;
@@ -54,20 +56,20 @@
       rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
   }
 
-}
+} */
 
 body, html {
   margin: 0;
   padding: 0;
+  font-family: var(--sans);
+  color: var(--text);
+  background: var(--bg);
 }
 
 #root {
-  width: 1126px;
   max-width: 100%;
-  margin: 0 auto;
-  text-align: center;
-  border-inline: 1px solid var(--border);
-  min-height: 100svh;
+  margin: 0;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
