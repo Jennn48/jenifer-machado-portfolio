@@ -1,9 +1,9 @@
 footer {
+    position: fixed;
     width: 100%;
     font-size: 14px;
-    position: fixed;
-    bottom: 0;
     color: var(--text);
+    bottom: 0;
 }
 
 .handwritten-line {
@@ -24,3 +24,4 @@ footer {
         box-shadow: none;
     }
 }
+

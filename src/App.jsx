@@ -8,6 +8,7 @@ import Projects from "./pages/Projects/Projects.jsx";
 import ProjectDetail from "./pages/ProjectDetail/ProjectDetail.jsx";
 import Contact from "./pages/Contact/Contact.jsx";
 
+import "./App.css";
 function App() {
   return (
     <>
@@ -16,7 +17,7 @@ function App() {
       <main className="container-fluid">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/project" element={<ProjectDetail />} />
+          <Route path="/project/:id" element={<ProjectDetail />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>

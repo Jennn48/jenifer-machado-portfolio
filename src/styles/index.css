@@ -28,13 +28,19 @@
   font-synthesis: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  scrollbar-color: #dce5e7 #9fb9c2 !important;
+  scrollbar-width: thin !important;
 }
 
 body {
   margin: 0;
   padding: 0;
   font-family: var(--sans);
-  line-height: 1.45;
+  font-weight: 400;
+  line-height: 1.25;
+  color: var(--text);
+  font-size: 12px;
 }
 
 h1,
@@ -42,6 +48,7 @@ h2,
 h3,
 h4 {
   font-family: var(--serif);
+  color: var(--text-h)
 }
 
 #root {

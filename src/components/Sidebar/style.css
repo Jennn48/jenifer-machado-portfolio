@@ -1,0 +1,36 @@
+h1 {
+    font-size: 3.5rem;
+    text-wrap: wrap;
+    color: var(--accent);
+}
+
+#field {
+    line-height: 0.5;;
+    font-size: 1.25rem;
+}
+
+#description {
+    text-align: justify;
+}
+
+.profile-links i {
+    color: var(--text);
+    font-size: 20px;
+}
+
+.education h3, .technologies h3 {
+    font-family: var(--sans);
+    font-size: 1rem;
+}
+
+.technologies .container {
+    max-height: 150px;
+}
+
+.technologies > div  i > img{
+height: 20px;
+}
+
+.rounded-pill {
+    background-color: #b7c4d4;
+}
