@@ -1,0 +1,57 @@
+@import "./fonts.scss";
+
+@import "./bootstrap.scss";
+
+:root {
+  --text: #253a43;
+  --text-h: #5e6e75;
+  --bg: #e6f7fa;
+  --border: #eaeaea;
+
+  --ocean-light: #d4dddf;
+  --ocean-soft: #b9c8cd;
+  --ocean: #7b9ca7;
+  --accent: #58808e;
+
+  --wave-1: #dce5e7;
+  --wave-2: #c5d4d9;
+  --wave-3: #9fb9c2;
+  --wave-4: #7fa5b2;
+  --wave-5: #58808e;
+
+  --serif: "Cormorant Garamond", serif;
+  --sans: "Inter", sans-serif;
+
+  color: var(--text);
+  background: var(--bg);
+
+  font-synthesis: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--sans);
+  line-height: 1.45;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--serif);
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
