@@ -1,0 +1,7 @@
+form textarea {
+    resize: none;
+}
+
+.info a {
+    color: inherit;
+}

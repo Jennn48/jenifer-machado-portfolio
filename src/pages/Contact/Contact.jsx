@@ -3,8 +3,8 @@ import ContactInfo from "../../components/Contact/ContactInfo.jsx";
 
 function Contact() {
   return (
-    <div className="row">
-      <h2>Contact</h2>
+    <div className="row d-flex justify-content-between">
+      <h2 className="page-title pb-4 mb-4">Contact</h2>
       <ContactInfo />
       <ContactForm />
     </div>

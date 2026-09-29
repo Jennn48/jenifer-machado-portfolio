@@ -1,3 +1,29 @@
 .rounded-pill {
     background-color: #dde4f3;
 }
+
+.card {
+    position: relative;
+    max-height: 98%;
+    overflow: hidden;
+}
+
+.card-img-top {
+    max-height: 200px;
+}
+
+.img-fluid {
+    height: 100%;
+    width: 100%;
+}
+
+.card-link {
+    position: absolute;
+    bottom: 5px;
+}
+
+.card-title {
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}

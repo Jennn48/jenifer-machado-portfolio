@@ -1,7 +1,7 @@
 function ProfileLinks() {
   return (
     <div className="profile-links d-flex gap-5 justify-content-around border-top p-2 me-5">
-      <a href="https://github.com/Jennn48" target="_blank" rel="noopener noreferrer">
+      <a href="https://github.com/Jennn48/" target="_blank" rel="noopener noreferrer">
         <i className="bi bi-github"></i>
       </a>
       <a href="https://www.linkedin.com/in/jenifer-machado-2a1128384/" target="_blank" rel="noopener noreferrer">

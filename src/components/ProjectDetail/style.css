@@ -1,0 +1,15 @@
+.card img {
+    max-height: 80vh;
+}
+
+.card-title {
+    color: var(--ocean);
+}
+
+.technology {
+    color: var(--ocean);
+}
+
+.btn.btn-primary {
+    color: var(--bg);
+}

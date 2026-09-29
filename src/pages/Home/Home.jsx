@@ -12,7 +12,7 @@ function Home() {
       <Sidebar />
 
       <div className="row col-8">
-        {projects.map((project, id) => <ProjectCard key={id} project={project} />)}
+        {projects.slice(0, 3).map((project, id) => <ProjectCard key={id} project={project} />)}
       </div>
     </div>
   );

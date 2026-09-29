@@ -1,8 +1,9 @@
-function ProjectTechnologies(props) {
+function ProjectTechnologies({technology}) {
   return (
-    <div className="col-12 col-lg-6 col-xl-6">
-      <h2>{props.technology}</h2>
+    <div className="rounded-pill px-3 py-1 position-relative">
+      <p className="fs-6 technology my-1">{technology}</p>
     </div>
+    
   );
 }
 
