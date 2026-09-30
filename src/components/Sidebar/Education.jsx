@@ -2,7 +2,7 @@ import education from "../../data/education.js";
 
 function Education() {
   return (
-    <div className="education mt-3">
+    <div className="education mt-1 pt-3 pb-2 rounded-4">
       <h3>
         <i class="bi bi-mortarboard"></i> Education
       </h3>
@@ -10,11 +10,11 @@ function Education() {
       <div className="d-flex justify-content-between align-items-start gap-3 container px-0">
         {education.map((certificate, index) => (
           <div>
-            <h4 className="h5 mb-2 text-nowrap">
+            <h4 className="h5 mb-2 text-nowrap rounded-pill p-1">
               {certificate.degree}
             </h4>
 
-            <p className="mb-2 fw-semibold">
+            <p className="mb-2 fw-semibold rounded-pill p-1">
               {certificate.institution}
             </p>
 

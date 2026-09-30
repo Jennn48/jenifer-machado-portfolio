@@ -10,10 +10,10 @@ function ContactInfo() {
       </div>
 
       <div className="row my-4 info">
-        <div className="d-flex gap-2 align-items-baseline py-1">
+        <a href="mailto:machadogarciajenifer@gmail.com" className="text-decoration-none d-flex gap-2 align-items-baseline py-1">
           <i class="bi bi-envelope-fill"></i>
           <p>machadogarciajenifer@gmail.com</p>
-        </div>
+        </a>
         <div className="d-flex gap-2 align-items-baseline py-1">
           <i class="bi bi-geo-alt-fill"></i>
           <p>Vigo, Spain</p>

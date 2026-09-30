@@ -8,7 +8,7 @@ function ProjectCard({ project }) {
     <div className="col-12 col-lg-4 col-xl-4">
       <div className="card rounded-4 mb-3" style={{ maxWidth: 540, maxHeight: 200 }}>
         <div className="row g-0">
-          <div className="col-md-4">
+          <div className="col-4">
             <img
               src={project.verticalImage}
               className="img-fluid rounded-start-4"

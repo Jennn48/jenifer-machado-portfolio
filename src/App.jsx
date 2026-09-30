@@ -12,18 +12,37 @@ import "./App.css";
 function App() {
   return (
     <>
-      <Header />
+      <div className="main-container overflow-hidden">
+        <div className="content position-relative z-1">
+          <Header />
 
-      <main className="container-fluid">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/project/:id" element={<ProjectDetail />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </main>
+          <main className="container-fluid">
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/project/:id" element={<ProjectDetail />} />
+              <Route path="/projects" element={<Projects />} />
+              <Route path="/contact" element={<Contact />} />
+            </Routes>
+          </main>
 
-      <Footer />
+          <Footer />
+        </div>
+        <div className="water z-0">
+          <div className="edge wave-1">
+            <div className="wave wave-1"></div>
+          </div>
+          <div className="edge wave-2">
+            <div className="wave wave-2"></div>
+          </div>
+          <div className="edge wave-3">
+            <div className="wave wave-3"></div>
+          </div>
+          <div className="edge wave-4">
+            <div className="wave wave-4"></div>
+          </div>
+          <div className="transparency"></div>
+        </div>
+      </div>
     </>
   );
 }

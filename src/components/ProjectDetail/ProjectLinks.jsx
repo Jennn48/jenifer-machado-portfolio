@@ -1,8 +1,8 @@
 function ProjectLinks({demo, github}) {
   return (
-    <div className="d-grid gap-2 col-6 d-md-flex flex-nowrap px-2 mt-auto">
+    <div className="gap-2 col-lg-6 col-xl-6 d-flex flex-nowrap px-2 mt-auto">
               <a
-                className="btn btn-primary text-nowrap"
+                className="btn btn-primary text-nowrap col-6"
                 target="_blank"
                 rel="noopener noreferrer"
                 href={demo}
@@ -12,7 +12,7 @@ function ProjectLinks({demo, github}) {
                 <i className=" ms-2 bi bi-box-arrow-up-right"></i>
               </a>
               <a
-                className="btn btn-outline-primary text-nowrap"
+                className="btn btn-secondary text-nowrap col-6"
                 target="_blank"
                 rel="noopener noreferrer"
                 href={github}

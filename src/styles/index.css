@@ -3,6 +3,7 @@
 @import "./bootstrap.scss";
 
 :root {
+  --text-light: #3d5e6c;
   --text: #253a43;
   --text-h: #5e6e75;
   --bg: #e6f7fa;
