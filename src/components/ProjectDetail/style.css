@@ -6,6 +6,18 @@
     color: var(--ocean);
 }
 
+.card-text {
+    font-size: 15px;
+}
+
 .technology {
     color: var(--ocean);
+}
+
+.nav-link span {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+.nav-link:hover span {
+    transform: translateX(-6px);
 }

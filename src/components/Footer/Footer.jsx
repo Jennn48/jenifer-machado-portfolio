@@ -4,8 +4,8 @@ function Footer() {
   const year = new Date().getFullYear();
   return (
     <div className="container-fluid">
-      <footer className="d-flex flex-wrap justify-content-center align-items-center py-2 my-0">
-        <div className="d-flex align-items-center">
+      <footer className="row d-flex flex-wrap justify-content-end align-items-center py-2 my-0">
+        <div className=" col-md-8 d-flex align-items-center justify-content-center">
           <span className="mb-3 mb-md-0 d-flex justify-content-center align-items-center gap-2">
             © {year} Jenifer Machado
             <svg viewBox="0 0 500 50" className="handwritten-line">

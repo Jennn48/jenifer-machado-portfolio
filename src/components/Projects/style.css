@@ -4,8 +4,13 @@
 
 .card {
     position: relative;
-    max-height: 98%;
+    max-height: 100%;
     overflow: hidden;
+}
+
+.project-card {
+    max-width: 540px;
+    max-height: 200px;
 }
 
 .card-img-top {
@@ -19,11 +24,29 @@
 
 .card-link {
     position: absolute;
+    top: auto;
     bottom: 5px;
 }
 
-.card-title {
+.card-link span {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.card-link:hover span {
+    transform: translateX(6px);
+}
+
+.project-card .card-title {
     width: 100%;
     text-overflow: ellipsis;
     overflow: hidden;
+    
+}
+
+.card-title.scale-title {
+    transition: transform 0.3s ease-in-out;
+}
+.card-title.scale-title:hover {
+    transform: scale(1.02);
 }

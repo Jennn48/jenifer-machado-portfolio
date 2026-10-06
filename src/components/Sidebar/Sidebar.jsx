@@ -7,7 +7,7 @@ import "./style.css";
 
 function Aside() {
   return (
-    <aside className="col-12 col-lg-4 col-xl-4">
+    <aside className="col-12 col-md-5 col-lg-4">
       <Profile />
 
       <ProfileLinks />

@@ -9,6 +9,8 @@ import ProjectDetail from "./pages/ProjectDetail/ProjectDetail.jsx";
 import Contact from "./pages/Contact/Contact.jsx";
 
 import "./App.css";
+import "./responsive.css";
+
 function App() {
   return (
     <>

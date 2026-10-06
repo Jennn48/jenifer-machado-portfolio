@@ -1,6 +1,6 @@
 function ProfileLinks() {
   return (
-    <div className="profile-links d-flex gap-5 justify-content-around border-top p-2 me-5">
+    <div className="profile-links d-flex gap-5 justify-content-around border-top p-2 me-5 mt-4 mt-md-2 mb-5 mb-md-0 col-12">
       <a href="https://github.com/Jennn48/" target="_blank" rel="noopener noreferrer">
         <i className="bi bi-github"></i>
       </a>

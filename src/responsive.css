@@ -1,0 +1,131 @@
+@media (max-width: 992px) {
+
+    button,
+    input {
+        outline: none;
+        border: none;
+    }
+
+    .header-theme {
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+
+        background-color: var(--bg);
+        border-radius: 50%;
+        box-shadow: 1px 3px 7px #a8a8a89e;
+        transition: transform 0.3s ease;
+    }
+
+    .header-theme:active {
+        transform: rotate(-15deg) scale(1.2);
+        animation: ligth 0.6s ease-out forwards;
+    }
+
+    .header-theme .btn:active,
+    .header-theme .btn {
+        border: 5px solid transparent;
+    }
+
+    .nav-link.active::after {
+        transform: scaleX(0);
+    }
+
+    #navbarSupportedContent {
+        background-color: var(--wave-1);
+    }
+
+    .profile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #field {
+        font-size: 40px;
+        line-height: 1;
+    }
+
+    .profile-links {
+        border: 3px solid red;
+        border: none !important;
+        justify-content: center !important;
+    }
+
+    .profile-links i {
+        padding: 7px;
+        border-radius: 100%;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    }
+
+    .project-card-mobile {
+        height: 120px;
+        width: 100%;
+        margin-bottom: 20px;
+        box-shadow: rgb(38, 57, 77) 0 -5px 25px -30px inset;
+    }
+
+
+
+    .project-card-mobile>* {
+        width: 50px;
+        height: 50px;
+    }
+
+    .project-card-mobile .project-image:first-child {
+        top: 15px;
+        left: 10px;
+        transform: rotate(5deg);
+    }
+
+    .project-card-mobile .project-image:nth-child(2) {
+        top: 10px;
+        left: 80px;
+        transform: rotate(-5deg);
+    }
+
+    .project-card-mobile .project-image:nth-child(3) {
+        top: 15px;
+        left: 155px;
+        transform: rotate(5deg);
+    }
+
+    .technologies .container {
+        max-height: 350px;
+    }
+
+    .education .container h4 {
+        font-size: 0.9rem;
+    }
+
+    .main-container .content {
+        min-height: 98vh;
+        padding-bottom: 40px;
+    }
+
+    footer {
+        position: absolute;
+        top: auto;
+        bottom: 0;
+    }
+
+
+
+
+    .project-card {
+        max-height: 70%;
+        font-size: 70%;
+    }
+
+    .project-card h5.card-title {
+        font-size: 120%;
+    }
+
+    .project-card .card-text {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        overflow: hidden;
+    }
+}

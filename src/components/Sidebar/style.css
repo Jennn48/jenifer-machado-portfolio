@@ -5,8 +5,9 @@ h1 {
 }
 
 #field {
-    line-height: 0.5;;
+    line-height: 0.5;
     font-size: 1.25rem;
+    color: #b7c4d4;
 }
 
 #description {

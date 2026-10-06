@@ -2,7 +2,7 @@ import "./style.css";
 
 function ContactInfo() {
   return (
-    <div className="col-12 col-lg-6 col-xl-6 d-flex flex-column">
+    <div className="col-12 col-lg-4 col-xl-4 d-flex flex-column">
       <div className="row">
         <p className="fs-5 col-8">
           Do you have something in mind. Let's build something great together.
