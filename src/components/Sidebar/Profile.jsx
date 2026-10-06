@@ -68,7 +68,7 @@ function Profile() {
               <Link to={projectLink} className="text-decoration-none">
                 <img
                   src={project.image}
-                  alt="project-image"
+                  alt={`${project.title} project preview`}
                   className="rounded-4"
                   onPointerDown={(e) => handlePointerDown(e, project.id)}
                   onPointerMove={(e) => handlePointerMove(e, project.id)}

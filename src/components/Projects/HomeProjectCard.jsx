@@ -6,7 +6,7 @@ function HomeProjectCard({project}) {
   return (
     <div className="col-lg-3 mx-auto gap-2">
       <div className="card rounded-4" style={{ width: "15rem" }}>
-        <img src={project.image} className="card-img-top rounded-top-4" alt="..." />
+        <img src={project.image} className="card-img-top rounded-top-4" alt={`${project.title} project preview`} />
         <div className="card-body">
           <Link
             to={projectLink}

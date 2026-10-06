@@ -12,10 +12,9 @@ function Header() {
   return (
     <nav className="navbar navbar-expand-md py-0 m-0">
       <div className="container-fluid p-0">
-        <a className="navbar-brand col-md-3 me-0" id="brand-logo">
-          <a href="mailto:machadogarciajenifer@gmail.com">
+        <a className="navbar-brand col-md-3 me-0 "
+        href="mailto:machadogarciajenifer@gmail.com" id="brand-logo">
             <img src={logo} alt="logo" className="logo" />
-          </a>
         </a>
         <button
           className="navbar-toggler ms-auto"

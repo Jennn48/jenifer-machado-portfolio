@@ -4,7 +4,7 @@
 
 .card {
     position: relative;
-    max-height: 100%;
+    max-height: 95%;
     overflow: hidden;
 }
 
@@ -49,4 +49,12 @@
 }
 .card-title.scale-title:hover {
     transform: scale(1.02);
+}
+
+.card-body .card-text {
+    display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 5;
+        overflow: hidden;
+    font-size: 12px;
 }

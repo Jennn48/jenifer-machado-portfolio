@@ -17,7 +17,7 @@ function Home() {
       </div>
 
       <div className="row d-none d-md-block d-lg-none col-md-7">
-        {projects.slice(0, 3).map((project, id) => <ProjectCard key={id} project={project} homeCard={true} />)}
+        {projects.slice(0, 3).map((project, id) => <ProjectCard key={`project${id}`} project={project} homeCard={true} />)}
       </div>
     </div>
     

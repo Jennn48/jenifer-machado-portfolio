@@ -11,11 +11,11 @@ function ContactInfo() {
 
       <div className="row my-4 info">
         <a href="mailto:machadogarciajenifer@gmail.com" className="text-decoration-none d-flex gap-2 align-items-baseline py-1">
-          <i class="bi bi-envelope-fill"></i>
+          <i className="bi bi-envelope-fill"></i>
           <p>machadogarciajenifer@gmail.com</p>
         </a>
         <div className="d-flex gap-2 align-items-baseline py-1">
-          <i class="bi bi-geo-alt-fill"></i>
+          <i className="bi bi-geo-alt-fill"></i>
           <p>Vigo, Spain</p>
         </div>
         <a
@@ -24,7 +24,7 @@ function ContactInfo() {
           rel="noopener noreferrer"
           className="d-flex gap-2 align-items-baseline py-1 text-decoration-none"
         >
-          <i class="bi bi-github"></i>
+          <i className="bi bi-github"></i>
           <p>https://github.com/Jennn48/</p>
         </a>
         <a
@@ -33,7 +33,7 @@ function ContactInfo() {
           rel="noopener noreferrer"
           className="d-flex gap-2 align-items-baseline py-1 text-decoration-none"
         >
-          <i class="bi bi-linkedin"></i>
+          <i className="bi bi-linkedin"></i>
           <p>https://www.linkedin.com/in/jenifer-machado-2a1128384/</p>
         </a>
       </div>
