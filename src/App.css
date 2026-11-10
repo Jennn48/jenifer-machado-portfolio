@@ -1,3 +1,13 @@
+.content{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
 .page-title {
     position: relative;
     color: var(--ocean);
@@ -21,21 +31,9 @@
     overflow: hidden;
 
     background-color: var(--bg);
-    
+
     right: 0;
     bottom: 0;
-
-    transform: scaleX(-1);
-}
-
-.water .transparency {
-    position: absolute;
-    width: 65%;
-    height: 100%;
-    bottom: 0;
-    left: 0;
-    background: linear-gradient(135deg, var(--bg) 60%,rgba(255, 255, 255, 0.4) 75%, transparent 80%);
-    z-index: 8;
 }
 
 /*Definition of the edges*/
@@ -270,7 +268,7 @@
     position: absolute;
     inset: -8px;
 
-    background-color: crimson;
+    background-color: var(--bg);
     transform: rotate(0.5deg) translateY(1px);
 
     clip-path: polygon(0% 85%,
@@ -321,21 +319,21 @@
 /*Particular color of every wave*/
 .wave-1.edge .wave {
     background: linear-gradient(110deg,
-            #f1f7f2 0%,
-            #d7eded 17%,
-            #a8dadd 38%,
-            #7bc8ce 62%,
+            var(--wave-1) 0%,
+            var(--wave-2) 17%,
+            var(--wave-3) 38%,
+            var(--wave-4) 62%,
             #56b4bd 100%);
 }
 
 .wave-2.edge .wave {
     background: linear-gradient(110deg,
-            #a8dadd 0%,
-            #7bc8ce 27%,
-            #55b4bd 53%,
-            #24919f 76%,
-            #117080 100%);
-            
+            var(--wave-3) 0%,
+            var(--wave-4) 27%,
+            var(--wave-5) 53%,
+            var(--wave-6) 76%,
+            var(--wave-7) 100%);
+
     clip-path: polygon(0% 85%,
             10% 77%,
             15% 74%,
@@ -385,18 +383,18 @@
 
 .wave-3.edge .wave {
     background: linear-gradient(120deg,
-            #55b4bd 0%,
-            #24919f 27%,
-            #117080 53%,
-            #0d586b 76%,
-            #093b4b 100%);
+            var(--wave-5) 0%,
+            var(--wave-6) 27%,
+            var(--wave-7) 53%,
+            var(--wave-8) 76%,
+            var(--wave-9) 100%);
 }
 
 .wave-4.edge .wave {
     background: linear-gradient(135deg,
-            #117080 0%,
-            #0d586b 27%,
-            #093b4b 53%,
-            #092d3c 76%,
-            #071923 100%);
+            var(--wave-7) 0%,
+            var(--wave-8) 27%,
+            var(--wave-9) 53%,
+            var(--wave-10) 76%,
+            var(--wave-11) 100%);
 }

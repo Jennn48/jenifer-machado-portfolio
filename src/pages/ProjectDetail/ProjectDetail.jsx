@@ -4,7 +4,6 @@ import projects from "../../data/projects.js";
 
 function ProjectDetail() {
   const {id} = useParams();
-  console.log(id);
 
   const project = projects.find(
     (project) => project.id === Number(id)

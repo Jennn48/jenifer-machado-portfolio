@@ -1,12 +1,15 @@
 import { Routes, Route } from "react-router-dom";
+import { lazy, Suspense } from "react";
 
 import Header from "./components/Header/Header.jsx";
 import Footer from "./components/Footer/Footer.jsx";
-
 import Home from "./pages/Home/Home.jsx";
-import Projects from "./pages/Projects/Projects.jsx";
-import ProjectDetail from "./pages/ProjectDetail/ProjectDetail.jsx";
-import Contact from "./pages/Contact/Contact.jsx";
+
+const Projects = lazy(() => import("./pages/Projects/Projects.jsx"));
+const ProjectDetail = lazy(
+  () => import("./pages/ProjectDetail/ProjectDetail.jsx"),
+);
+const Contact = lazy(() => import("./pages/Contact/Contact.jsx"));
 
 import "./App.css";
 import "./responsive.css";
@@ -14,17 +17,19 @@ import "./responsive.css";
 function App() {
   return (
     <>
-      <div className="main-container overflow-hidden">
+      <div className="main-container overflow-hidden app">
         <div className="content position-relative z-1">
           <Header />
 
           <main className="container-fluid">
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/project/:id" element={<ProjectDetail />} />
-              <Route path="/projects" element={<Projects />} />
-              <Route path="/contact" element={<Contact />} />
-            </Routes>
+            <Suspense fallback={<div className="text-center py-5">Loading...</div>}>
+              <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/project/:id" element={<ProjectDetail />} />
+                <Route path="/projects" element={<Projects />} />
+                <Route path="/contact" element={<Contact />} />
+              </Routes>
+            </Suspense>
           </main>
 
           <Footer />
@@ -42,7 +47,6 @@ function App() {
           <div className="edge wave-4">
             <div className="wave wave-4"></div>
           </div>
-          <div className="transparency"></div>
         </div>
       </div>
     </>

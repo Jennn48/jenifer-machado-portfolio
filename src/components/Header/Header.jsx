@@ -1,12 +1,12 @@
 import "./style.css";
-import logo from "../../assets/images/logo.svg";
+import logo from "/logo.svg";
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
 
 function Header() {
   const [isActive, setIsActive] = useState(false);
 
-  function handelClick(){
+  function handleClick(){
     setIsActive((prevValue) => !prevValue);
   }
   return (
@@ -24,7 +24,7 @@ function Header() {
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
-          onClick={handelClick}
+          onClick={handleClick}
         >
           {" "}
           <span
@@ -35,7 +35,7 @@ function Header() {
           </span>{" "}
         </button>
         <div
-          className="collapse navbar-collapse d-lg-flex justify-content-center"
+          className="collapse navbar-collapse d-lg-flex justify-content-center z-1 w-100"
           id="navbarSupportedContent"
         >
           <ul className="navbar-nav col-md-6 justify-content-md-center">
@@ -65,7 +65,7 @@ function Header() {
           </ul>
         </div>
         <div className="d-md-flex col-md-3 justify-content-md-end header-theme z-3">
-          <button className="btn fs-4">
+          <button className="btn fs-4" aria-label="header-theme-button">
             <i className="bi bi-sun-fill"></i>
           </button>
         </div>

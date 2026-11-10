@@ -1,5 +1,5 @@
 .rounded-pill {
-    background-color: #dde4f3;
+    background-color: var(--wave-1);
 }
 
 .card {

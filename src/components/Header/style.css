@@ -15,7 +15,7 @@
     bottom: 0;
     left: 0;
 
-    background-color: #43bbcb;
+    background-color: var(--links);
 
     transform: scaleX(0);
     transition: transform 0.3s ease-in-out;
@@ -25,7 +25,7 @@
     transform: scaleX(1);
 }
 
-img.logo {
+.logo {
     height: 1.3rem;
 }
 
@@ -33,16 +33,16 @@ img.logo {
     height: 100%;
     aspect-ratio: 1/1 !important;
     display: inline-block;
-    color: rgb(246, 246, 118);
-    border-radius: 100%;
+    color: var(--sun);
+    border-radius: 50%;
     transition: transform 0.3s ease;
 }
 
 .bi.bi-sun-fill:hover {
     transform: rotate(-15deg) scale(1.2);
-    animation: ligth 0.35s ease-out forwards;
-
+    animation: light 0.35s ease-out forwards;
 }
+
 
 .navbar-toggler {
     height: 50px;
@@ -56,15 +56,18 @@ img.logo {
     transition-duration: 0.3s;
 }
 
-.navbar-toggler:focus {
-    box-shadow: 4px 4px transparent;
+nav button:focus,
+nav button:not(:focus) {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
 }
 
 .navbar-toggler-burg span {
     height: 2px;
     width: 25px;
     display: block;
-    position: relative;
+    position: absolute;
     margin: 0 auto;
     border-radius: 10px;
     background-color: var(--text);
@@ -72,19 +75,17 @@ img.logo {
     transition-duration: 0.4s;
 }
 
-.navbar-toggler-burg span {
-    position: absolute;
-}
-
 .navbar-toggler-burg span:first-child {
     top: 10px;
     transition: transform 0.3s ease-out, top 0.3s ease 0.3s;
 }
+
 .navbar-toggler-burg span:nth-child(2) {
     top: 20px;
     opacity: 1;
     transition: opacity 0.6s ease;
 }
+
 .navbar-toggler-burg span:nth-child(3) {
     top: 30px;
     transition: transform 0.3s ease-out, top 0.3s ease 0.3s;
@@ -100,6 +101,7 @@ img.logo {
     opacity: 0;
     transition: opacity 0.3s ease;
 }
+
 .navbar-toggler-burg.active span:nth-child(3) {
     transform: rotate(-45deg);
     top: 20px;
@@ -107,11 +109,10 @@ img.logo {
 }
 
 #navbarSupportedContent {
-    width: 100%;
     padding: 0 15px;
-    
+    background-color: var(--bg);
+
     position: absolute;
     top: 10px;
-    z-index: 1;
     border-radius: 0 0 0 12px;
-}
+}                                             

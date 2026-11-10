@@ -88,9 +88,9 @@ function Profile() {
           );
         })}
       </div>
-      <h3 id="field" className="text-uppercase order-3  mx-auto my-4 my-md-1 text-center text-md-start fw-bold">
+      <h2 id="field" className="text-uppercase order-3  mx-auto my-4 my-md-1 text-center text-md-start fw-bold">
         Web Developer
-      </h3>
+      </h2>
       <p className="text-justify d-none d-md-block order-4" id="description">
         I’m a junior developer based in Vigo, Spain, with a Bachelor's Degree in
         Telecomunications Engineering. I like building practical web

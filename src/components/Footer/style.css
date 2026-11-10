@@ -1,9 +1,6 @@
 footer {
-    position: fixed;
-    width: 100%;
     font-size: 14px;
     color: var(--text);
-    bottom: 0;
 }
 
 .handwritten-line {
@@ -11,13 +8,13 @@ footer {
     height: 5px;
 }
 
-@keyframes ligth {
+@keyframes light {
     0% {
         box-shadow: none;
     }
 
     50% {
-        box-shadow: rgb(246, 246, 118, 0.1) 0px 1px 100px inset;
+        box-shadow: var(--shadow-inset);
     }
 
     100% {

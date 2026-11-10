@@ -7,7 +7,7 @@ h1 {
 #field {
     line-height: 0.5;
     font-size: 1.25rem;
-    color: #b7c4d4;
+    color: var(--ocean);
 }
 
 #description {
@@ -19,23 +19,20 @@ h1 {
     font-size: 20px;
 }
 
-.education h3, .technologies h3 {
+.education h3,
+.technologies h3 {
     font-family: var(--sans);
     font-size: 1rem;
-}
-
-.education h3 {
-    color: black;
 }
 
 .technologies .container {
     max-height: 150px;
 }
 
-.technologies > div  i > img{
-height: 20px;
+.technologies>div i>img {
+    height: 20px;
 }
 
 .rounded-pill {
-    background-color: #b7c4d4;
+    background-color: var(--rounded-pill);
 }
