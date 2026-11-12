@@ -1,16 +1,36 @@
-# React + Vite
+# My Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Personal portfolio websiteto showcase my projects and technical skills as a developer.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[View Portfolio](https://)
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Light and dark themes.
+- Responsive design for different screen sizes.
 
-## Expanding the Oxlint configuration
+## 🛠️ Technologies
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- React
+- JavaScript
+- Bootstrap
+
+## 📌 Pending Tasks & Improvements
+
+## 📌 Pending Tasks & Improvements
+
+- [ ] Integrate the contact form with a backend service.
+- [ ] Improve website accessibility (WCAG guidelines).
+- [ ] Further optimize website performance.
+- [ ] Add two new projects to the portfolio.
+- [ ] Add project filtering by technology.
+- [ ] Refactor project cards into a reusable React component.
+- [ ] Ensure the Projects navigation link remains active when viewing a project detail page.
+- [ ] Fix project card height inconsistency when navigating from a project detail page back to the home page.
+
+
+## 📄 License
+
+This project is intended for professional self-promotion purposes only.q
