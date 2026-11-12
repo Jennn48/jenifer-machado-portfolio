@@ -1,11 +1,17 @@
 .rounded-pill {
-    background-color: var(--wave-1);
+    background-color: var(--rounded-pill);
 }
 
 .card {
     position: relative;
     max-height: 95%;
     overflow: hidden;
+    background-color: var(--bg-card);
+    color: var(--text);
+}
+
+.card .rounded-pill {
+    border: 1px solid #dde4f3;
 }
 
 .project-card {
@@ -26,11 +32,11 @@
     position: absolute;
     top: auto;
     bottom: 5px;
+    color: var(--links);
 }
 
 .card-link span {
     display: inline-block;
-    transition: transform 0.3s ease;
 }
 
 .card-link:hover span {
@@ -41,12 +47,9 @@
     width: 100%;
     text-overflow: ellipsis;
     overflow: hidden;
-    
+    color: var(--text-heading) !important;
 }
 
-.card-title.scale-title {
-    transition: transform 0.3s ease-in-out;
-}
 .card-title.scale-title:hover {
     transform: scale(1.02);
 }

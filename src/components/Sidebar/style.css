@@ -31,8 +31,21 @@ h1 {
 
 .technologies>div i>img {
     height: 20px;
+    box-shadow: var(--shadow-sm);
+    border-radius: 5px;
+}
+
+.technologies .technology-icon {
+    fill: currentColor !important;
+    height: 20px;
+    border-radius: 5px;
 }
 
 .rounded-pill {
     background-color: var(--rounded-pill);
+}
+
+.rounded-pill.institution {
+    background: rgb(from var(--rounded-pill) r g b / 0.5);
+    ;
 }

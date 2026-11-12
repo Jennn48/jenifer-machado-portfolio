@@ -7,14 +7,22 @@ function Technologies() {
         <i className="bi bi-code-slash"></i> Technologies
       </h3>
       <div className="row overflow-auto container px-0 py-2">
-        {technologies.map((technology, id) => (
-          <div key={id} className="rounded-pill d-flex gap-2 align-items-center px-2 py-1 col-4 col-md-3 mb-3 mb-md-2">
-            <i>
-              <img src={technology.iconURL} alt="" />
-            </i>
-            <small>{technology.name}</small>
-          </div>
-        ))}
+        {technologies.map((technology, id) => {
+          const Icon = technology.Icon;
+
+          return (
+            <div
+              key={id}
+              className="rounded-pill d-flex gap-2 align-items-center px-2 py-1 col-4 col-md-3 mb-3 mb-md-2"
+            >
+              {/* <i className={technology.className}>
+                <img src={technology.iconURL} alt="" />
+              </i> */}
+              <Icon className="technology-icon" />
+              <small>{technology.name}</small>
+            </div>
+          );
+        })}
       </div>
     </div>
   );

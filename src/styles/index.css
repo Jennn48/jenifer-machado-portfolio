@@ -9,6 +9,7 @@
 
   --ocean: #7b9ca7;
   --accent: #58808e;
+  --bg-card: #e6f7fa;
   --links: #43bbcb;
   --rounded-pill: #b7c4d4;
 
@@ -17,20 +18,37 @@
   --wave-3: #a8dadd;
   --wave-4: #7bc8ce;
   --wave-5: #55b4bd;
-  --wave-6: #24919f;  
+  --wave-6: #24919f;
   --wave-7: #117080;
   --wave-8: #0d586b;
   --wave-9: #093b4b;
   --wave-10: #092d3c;
   --wave-11: #071923;
-  
-  --sun: rgb(246, 246, 118);
+
+  --sun: #7fd1d9;
 
   --shadow-inset: rgb(246, 246, 118, 0.1) 0px 1px 100px inset;
   --shadow-sm: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 
   --serif: "Cormorant Garamond", serif;
   --sans: "Inter", sans-serif;
+}
+
+[data-theme="dark"] {
+  --text: #e6f7fa;
+  --text-heading: #1f7a8c;
+  --bg: #0b1f2a;
+
+  --ocean: #7b9ca7;
+  --accent: #7fd1d9;
+  --bg-card: #102f36;
+  --links: #43bbcb;
+  --rounded-pill: #102f3a;
+
+  --sun: rgb(246, 246, 118);
+
+  --shadow-inset: rgb(246, 246, 118, 0.1) 0px 1px 100px inset;
+  --shadow-sm: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
 html {
@@ -55,7 +73,9 @@ body {
   font-synthesis: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
+
 
 h1,
 h2,

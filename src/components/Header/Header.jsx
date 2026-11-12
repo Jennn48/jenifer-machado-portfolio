@@ -2,11 +2,12 @@ import "./style.css";
 import logo from "/logo.svg";
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
+import DarkMode from "./DarkMode.jsx";
 
 function Header() {
   const [isActive, setIsActive] = useState(false);
 
-  function handleClick(){
+  function handleClick() {
     setIsActive((prevValue) => !prevValue);
   }
   return (
@@ -64,11 +65,7 @@ function Header() {
             </li>
           </ul>
         </div>
-        <div className="d-md-flex col-md-3 justify-content-md-end header-theme z-3">
-          <button className="btn fs-4" aria-label="header-theme-button">
-            <i className="bi bi-sun-fill"></i>
-          </button>
-        </div>
+        <DarkMode />
       </div>
     </nav>
   );
