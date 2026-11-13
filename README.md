@@ -33,4 +33,4 @@ Personal portfolio websiteto showcase my projects and technical skills as a deve
 
 ## 📄 License
 
-This project is intended for professional self-promotion purposes only.q
+This project is intended for professional self-promotion purposes only.

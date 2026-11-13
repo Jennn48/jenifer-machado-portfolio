@@ -1,15 +1,15 @@
-import HTMLIcon from "../assets/technologies/html5-brands-solid-full.svg?react";
-import CSSIcon from "../assets/technologies/css-brands-solid-full.svg?react";
-import JavaScriptIcon from "../assets/technologies/js-brands-solid-full.svg?react";
-import PythonIcon from "../assets/technologies/python.svg?react";
-import ReactIcon from "../assets/technologies/react-brands-solid-full.svg?react";
-import NodeIcon from "../assets/technologies/node-brands-solid-full.svg?react";
-import NPMIcon from "../assets/technologies/npm-brands-solid-full.svg?react";
-import GitIcon from "../assets/technologies/git-alt-brands-solid-full.svg?react";
-import GitHubIcon from "../assets/technologies/github-brands-solid-full.svg?react";
-import BootstrapIcon from "../assets/technologies/bootstrap-brands-solid-full.svg?react";
-import TailwindIcon from "../assets/technologies/tailwind-css-brands-solid-full.svg?react";
-import PostgreSQLIcon from "../assets/technologies/postgresql-brands-solid-full.svg?react";
+import HTMLIcon from "../assets/images/technologies/html5-brands-solid-full.svg?react";
+import CSSIcon from "../assets/images/technologies/css-brands-solid-full.svg?react";
+import JavaScriptIcon from "../assets/images/technologies/js-brands-solid-full.svg?react";
+import PythonIcon from "../assets/images/technologies/python-brands-solid-full.svg?react";
+import ReactIcon from "../assets/images/technologies/react-brands-solid-full.svg?react";
+import NodeIcon from "../assets/images/technologies/node-brands-solid-full.svg?react";
+import NPMIcon from "../assets/images/technologies/npm-brands-solid-full.svg?react";
+import GitIcon from "../assets/images/technologies/git-alt-brands-solid-full.svg?react";
+import GitHubIcon from "../assets/images/technologies/github-brands-solid-full.svg?react";
+import BootstrapIcon from "../assets/images/technologies/bootstrap-brands-solid-full.svg?react";
+import TailwindIcon from "../assets/images/technologies/tailwind-css-brands-solid-full.svg?react";
+import PostgreSQLIcon from "../assets/images/technologies/postgresql-brands-solid-full.svg?react";
 
 const technologies = [
     {

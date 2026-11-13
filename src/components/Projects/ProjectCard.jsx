@@ -10,7 +10,7 @@ function ProjectCard({ project, homeCard}) {
           <div className="col-4">
             <img
               src={project.verticalImage}
-              className="img-fluid rounded-start-4"
+              className="img-fluid rounded-start-4 py-3"
               alt={`${project.title} project preview`}
             />
           </div>
@@ -20,7 +20,7 @@ function ProjectCard({ project, homeCard}) {
                 <h5 className="card-title scale-title fs-md-6 text-nowrap mb-2">{project.title}</h5>
               </Link>
               <p className="card-text fw-light mb-2">{project.description}</p>
-              <div className="d-flex gap-1 mb-2 flex-wrap overflow-hidden" style={{maxHeight: "60px"}}>
+              <div className="d-flex gap-1 mb-3 flex-wrap overflow-hidden" style={{maxHeight: "60px"}}>
                 {project.technologies.map((technology, index) => (
                   <div className="rounded-pill px-2 py-1" key={index}>
                     <small>{technology}</small>

@@ -1,5 +1,4 @@
 import "./style.css";
-import logo from "/logo.svg";
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
 import DarkMode from "./DarkMode.jsx";
@@ -12,10 +11,10 @@ function Header() {
   }
   return (
     <nav className="navbar navbar-expand-md py-0 m-0">
-      <div className="container-fluid p-0">
+      <div className="container-fluid p-0 position-relative z-3">
         <a className="navbar-brand col-md-3 me-0 "
         href="mailto:machadogarciajenifer@gmail.com" id="brand-logo">
-            <img src={logo} alt="logo" className="logo" />
+            <img src="/logo.svg" alt="logo" className="logo position-relative z-1" />
         </a>
         <button
           className="navbar-toggler ms-auto"

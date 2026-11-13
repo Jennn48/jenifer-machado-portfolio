@@ -1,7 +1,7 @@
-h1 {
+h1 a {
     font-size: 3.5rem;
     text-wrap: wrap;
-    color: var(--accent);
+    color: var(--accent) !important;
 }
 
 #field {

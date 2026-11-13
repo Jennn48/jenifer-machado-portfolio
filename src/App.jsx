@@ -11,8 +11,8 @@ const ProjectDetail = lazy(
 );
 const Contact = lazy(() => import("./pages/Contact/Contact.jsx"));
 
-import "./App.css";
-import "./responsive.css";
+import "./styles/App.css";
+import "./styles/responsive.css";
 
 function App() {
   return (

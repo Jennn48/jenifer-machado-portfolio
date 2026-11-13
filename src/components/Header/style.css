@@ -105,9 +105,4 @@ nav button:not(:focus) {
 
 #navbarSupportedContent {
     padding: 0 15px;
-    background-color: var(--bg);
-
-    position: absolute;
-    top: 10px;
-    border-radius: 0 0 0 12px;
 }                                             
