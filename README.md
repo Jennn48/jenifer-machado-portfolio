@@ -4,7 +4,7 @@ Personal portfolio websiteto showcase my projects and technical skills as a deve
 
 ## 🌐 Live Demo
 
-[View Portfolio](https://)
+[View Portfolio](https://jenifer-machado-portfolio.onrender.com)
 
 ## ✨ Features
 
@@ -29,7 +29,7 @@ Personal portfolio websiteto showcase my projects and technical skills as a deve
 - [ ] Refactor project cards into a reusable React component.
 - [ ] Ensure the Projects navigation link remains active when viewing a project detail page.
 - [ ] Fix project card height inconsistency when navigating from a project detail page back to the home page.
-
+- [ ] Add a light-colored logo variant for dark mode.
 
 ## 📄 License
 
